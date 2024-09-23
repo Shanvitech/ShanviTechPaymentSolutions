@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanvi Tech Bill Payment Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .hero {
+            background: url('./shanvi.jpeg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+            padding: 100px 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #0056b3;
+        }
+
+        .features {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-card {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shanvi Tech Utility Solutions</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Seamless Bill Payments at Your Fingertips</h1>
+            <p>Experience the convenience of fast and secure payments with our platform.</p>
+            <a href="#features" class="cta-button">Explore Now</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-card">
+            <img src="./phone_payment.jpeg" alt="Phone Payment">
+            <h3>Phone Payment</h3>
+            <p>Make instant payments using your mobile phone.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./credit_card.jpeg" alt="Credit Card Payment">
+            <h3>Credit Card Payment</h3>
+            <p>Secure payments via credit cards with ease.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./electric.jpeg" alt="Electricity Payment">
+            <h3>Electricity Payment</h3>
+            <p>Pay your electricity bills quickly and easily.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./mobile_recharge.jpeg" alt="Mobile Recharge">
+            <h3>Mobile Recharge</h3>
+            <p>Recharge your mobile with just a few clicks.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./UPI-Payments.png" alt="UPI Payment">
+            <h3>UPI Payment</h3>
+            <p>Instant payments using UPI, the new standard.</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: karthi@shanvitech.in</p>
+        <p>Phone: +91-9884668780</p>
+    </footer>
+</body>
+</html>
